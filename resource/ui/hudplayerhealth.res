@@ -77,8 +77,25 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"GeosansLight64"
-		"fgcolor"		"TransparentBlack"
-	}								
+		"fgcolor"		"255 255 255 255"
+	}
+
+    "PlayerStatusHealthValueBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"2"
+		"ypos"			"2"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"250"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"GeosansLight64"
+		"fgcolor"		"0 0 0 255"
+	}				
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
